@@ -1,0 +1,121 @@
+/* General design template */
+
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+section{
+  padding: 10rem 0;
+}
+
+header>*, section>*{
+  width: 80%;
+  margin: auto
+}
+
+a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: black;
+}
+
+h1, h2, h3, p{
+  margin: 1.6rem auto;
+}
+
+h1{
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+
+h2{
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+p{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-item: center;
+  margin: auto;
+}
+
+
+/* Header */
+
+header{
+  background: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+.top-logo-container{
+  display: flex;
+  justify-content: center;
+}
+
+.top-logo{
+  width: 12rem;
+  padding-top: 10rem;
+}
+
+.page-title{
+  text-align: center;
+  margin-top: 10rem;
+  color: #2C3333;
+}
+
+.website-use{
+  color: #7F8487;
+  line-height: 1.25;
+  width: 45%;
+  text-align: center;
+}
+
+.btn-row{
+  align-item: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+.download-btn{
+  border-radius: 5rem;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 3rem 0.75rem;
+  padding: 1.4rem 4rem;
+  box-shadow: -6px 8px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.download-btn.ios{
+  background-color: hsl(171, 66%, 44%);
+}
+.download-btn.mac{
+  background-color: hsl(233, 100%, 69%);
+}
